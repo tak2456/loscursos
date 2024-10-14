@@ -14,7 +14,7 @@ pip     24.2
 (env)
 
 pip install "fastapi[all]"
-pip insall sqlalchemy
+pip install sqlalchemy
 
 or 
 
