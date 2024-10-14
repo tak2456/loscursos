@@ -4,7 +4,7 @@
 ```
 $ mkdir projectA
 $ cd projectA
-$ pyton3 -m venv env
+$ python3 -m venv env
 $ . env/Scripts/activate
 
 $ pip list
