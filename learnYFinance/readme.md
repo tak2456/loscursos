@@ -56,3 +56,6 @@ $pip install yfinance --upgrade --no-cache-dir
 
 ### Trading Volume
 ![alt text](images/TESLA_TRADING_VOLUME.png)
+
+### Stock Price and Volume
+![alt text](images/AMZN_PRICE_VOLUME.png)
