@@ -35,13 +35,11 @@ $ pip3 freeze > requirements.txt
 ```
 
 ## Yahoo Finance
-https://pypi.org/project/yfinance/
-https://github.com/ranaroussi/yfinance
-https://aroussi.com/post/python-yahoo-finance
-
-https://www.geeksforgeeks.org/get-financial-data-from-yahoo-finance-with-python/
-https://www.geeksforgeeks.org/getting-stock-symbols-with-yfinance-in-python/?ref=oin_asr2
-
+- https://pypi.org/project/yfinance/
+- https://github.com/ranaroussi/yfinance
+- https://aroussi.com/post/python-yahoo-finance
+- https://www.geeksforgeeks.org/get-financial-data-from-yahoo-finance-with-python/
+- https://www.geeksforgeeks.org/getting-stock-symbols-with-yfinance-in-python/?ref=oin_asr2
 
 
 ```shell
