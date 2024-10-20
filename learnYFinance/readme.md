@@ -57,3 +57,6 @@ $pip install yfinance --upgrade --no-cache-dir
 
 ### Stock Price and Volume
 ![alt text](images/AMZN_PRICE_VOLUME.png)
+
+### Tabular format
+![alt text](images/TABULAR_FORMAT.png)
