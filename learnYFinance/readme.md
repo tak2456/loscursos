@@ -28,11 +28,16 @@ $ pip3 install matplotlib
 or 
 $ python.exe -m pip install ipykernel -U --force-reinstall
 
-$ pip3 install yfinance
+$ pip3 install yfinance --upgrade --no-cache-dir
 $ pip3 install tabulate
 
 $ pip3 freeze > requirements.txt 
+
+$ pip3 install -r requirements.txt
 ```
+
+``--no-chache-dir``
+The --no-cache-dir option tells pip not to use any locally cached files during the installation process. Normally, pip stores downloaded package files in a local cache to speed up future installations. By using this option, you force pip to fetch the package from the source (like PyPI) rather than using any potentially outdated or corrupted files from your local cache.
 
 ## Yahoo Finance
 - https://pypi.org/project/yfinance/
