@@ -39,19 +39,36 @@ class Client:
             raise ClientError(f'{err.code()}: {err.details()}') from err
         return response.id
 
+    def track(self, events):
+        self.stub.Track(track_request(event) for event in events) # Enumerable
+
+def track_request(event):
+    request = pb.TrackRequest(
+        car_id=event.car_id,
+        location=pb.Location(lat=event.lat, lng=event.lng),
+    )
+    request.time.FromDatetime(event.time)
+    return request
+
 
 if __name__ == '__main__':
     import config
     from datetime import datetime
+    from events import rand_events
 
     addr = f'{config.host}:{config.port}'
     client = Client(addr)
-    client.ride_start(
-        car_id=7,
-        driver_id='Bond',
-        passenger_ids=['M', 'Q'],
-        type='POOL',
-        lat=51.4871871,
-        lng=-0.1266743,
-        time=datetime(2021, 9, 30, 20, 15),
-    )
+    # client.ride_start(
+    #     car_id=7,
+    #     driver_id='Bond',
+    #     passenger_ids=['M', 'Q'],
+    #     type='POOL',
+    #     lat=51.4871871,
+    #     lng=-0.1266743,
+    #     time=datetime(2021, 9, 30, 20, 15),
+    # )
+    events = rand_events(7)
+    try:
+        client.track(events)
+    except ClientError as err:
+        raise SystemExit(f'error: {err}')

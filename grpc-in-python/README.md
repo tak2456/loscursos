@@ -19,6 +19,7 @@ HTTP/2
 https://github.com/fullstorydev/grpcurl
 https://www.postman.com/
 https://buf.build/
+https://openssl.org/
 
 ## protcol buffer (.proto)
 ```
@@ -81,4 +82,13 @@ $grpcurl.exe -plaintext -d @ localhost:8888  Rides.Start < ../inputs/request.jso
 {
   "id": "d1d79b0282494cde873f4d23ceaf69cf"
 }
+
+# with https
+$grpcurl.exe -insecure -d @ localhost:8888  Rides.Start < inputs/request.json
 ```
+
+
+### how to share
+- mono repo
+- git submodule 
+- python package
