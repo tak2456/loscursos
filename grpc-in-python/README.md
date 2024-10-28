@@ -16,11 +16,11 @@ HTTP/2
  - http://www.http2demo.io/
 
 ## Links
-https://github.com/fullstorydev/grpcurl
-https://www.postman.com/
-https://buf.build/
-https://openssl.org/
-https://github.com/grpc-ecosystem/grpc-gateway/
+- https://github.com/fullstorydev/grpcurl
+- https://www.postman.com/
+- https://buf.build/
+- https://openssl.org/
+- https://github.com/grpc-ecosystem/grpc-gateway/
 
 
 ## protcol buffer (.proto)
