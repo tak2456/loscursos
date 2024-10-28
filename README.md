@@ -56,36 +56,6 @@ python.exe -m pip install --upgrade pip
 
 ## VSCode
 Python: Select Interpretor
+
 #%%
-
-## Protocol Buffer
-https://github.com/protocolbuffers/protobuf
-
-## RPT/gRPC
-RPC : Remote Procedure Call
-gRPC: from Google, HTTP/2
-
-
-HTTP/2
- - Binary frames
- - Header compression
- - Multiplexing
- - Request prioritization
- - Server push
- - Secure
- - http://www.http2demo.io/
-
-## Links
-https://github.com/fullstorydev/grpcurl
-https://www.postman.com/
-https://buf.build/
-
-## protcol buffer (.proto)
-```
-protoc --version
-protoc --python_out=. rides.proto
-
-pip install protobuf
-```
-
 
