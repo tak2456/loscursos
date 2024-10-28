@@ -9,6 +9,7 @@ import log
 import sys, os
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../mygrpc'))
 sys.path.insert(0, project_root)
+
 import rides_pb2 as pb
 import rides_pb2_grpc as rpc
 
