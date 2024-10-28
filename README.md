@@ -59,3 +59,17 @@ Python: Select Interpretor
 
 #%%
 
+## upgrade
+```
+$ python.exe -m pip install --upgrade pip
+Requirement already satisfied: pip in d:\work\python\ds\loscursos\grpc-in-python\env\lib\site-packages (24.2)
+Collecting pip
+  Using cached pip-24.3.1-py3-none-any.whl.metadata (3.7 kB)
+Using cached pip-24.3.1-py3-none-any.whl (1.8 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 24.2
+    Uninstalling pip-24.2:
+      Successfully uninstalled pip-24.2
+Successfully installed pip-24.3.1
+```
