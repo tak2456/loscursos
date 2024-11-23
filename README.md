@@ -73,3 +73,6 @@ Installing collected packages: pip
       Successfully uninstalled pip-24.2
 Successfully installed pip-24.3.1
 ```
+
+## Links
+- https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
