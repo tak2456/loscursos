@@ -43,6 +43,7 @@ then, shift + enter
 - https://code.visualstudio.com/docs/datascience/jupyter-notebooks
 - [Open Public APis](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/)
 - [100  most Highly-Ranked Films](https://web.archive.org/web/20230902185655/https://en.everybodywiki.com/100_Most_Highly-Ranked_Films)
+- [web-scraping selenium and beautiful soup](https://medium.com/swlh/web-scraping-using-selenium-and-beautifulsoup-adfc8810240a)
 
 ![alt text](image.png)
 
@@ -69,7 +70,6 @@ Selenimum
 ![alt text](image-7.png)
 ![alt text](image-6.png)
 
-https://medium.com/swlh/web-scraping-using-selenium-and-beautifulsoup-adfc8810240a
 
 ![alt text](image-8.png)
 
