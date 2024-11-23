@@ -17,6 +17,8 @@ pip install ipykernel
 pip install panda
 pip intall numpy
 pip install matplotlib
+pip install beautifulsoup4
+pip install randomuser
 
 or 
 
@@ -34,8 +36,8 @@ then, shift + enter
 ...
 ```
 
-[https://code.visualstudio.com/docs/datascience/jupyter-notebooks]
-
+https://code.visualstudio.com/docs/datascience/jupyter-notebooks
+[Open Public APis](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/)
 
 ![alt text](image.png)
 
@@ -50,3 +52,8 @@ plt.plot(x,y)
 ![alt text](image-2.png)
 
 ![alt text](image-3.png)
+
+
+# webscraping with requests
+![alt text](image-5.png)
+![alt text](image-4.png)
