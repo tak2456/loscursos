@@ -18,7 +18,9 @@ pip install panda
 pip intall numpy
 pip install matplotlib
 pip install beautifulsoup4
+pip install lxml
 pip install randomuser
+pip install requests html5lib 
 
 or 
 
@@ -57,3 +59,15 @@ plt.plot(x,y)
 # webscraping with requests
 ![alt text](image-5.png)
 ![alt text](image-4.png)
+
+BeautifulSoup
+Scrapy
+Selenimum
+![alt text](image-7.png)
+![alt text](image-6.png)
+
+https://medium.com/swlh/web-scraping-using-selenium-and-beautifulsoup-adfc8810240a
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
