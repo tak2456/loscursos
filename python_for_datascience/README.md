@@ -17,7 +17,8 @@ pip install ipykernel
 pip install panda
 pip intall numpy
 pip install matplotlib
-pip install beautifulsoup4
+#pip install beautifulsoup4
+pip install bs4
 pip install lxml
 pip install randomuser
 pip install requests html5lib 
@@ -40,6 +41,7 @@ then, shift + enter
 
 https://code.visualstudio.com/docs/datascience/jupyter-notebooks
 [Open Public APis](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/)
+[100  most Highly-Ranked Films](https://web.archive.org/web/20230902185655/https://en.everybodywiki.com/100_Most_Highly-Ranked_Films)
 
 ![alt text](image.png)
 
