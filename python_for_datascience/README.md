@@ -45,6 +45,11 @@ then, shift + enter
 - [100  most Highly-Ranked Films](https://web.archive.org/web/20230902185655/https://en.everybodywiki.com/100_Most_Highly-Ranked_Films)
 - [web-scraping selenium and beautiful soup](https://medium.com/swlh/web-scraping-using-selenium-and-beautifulsoup-adfc8810240a)
 
+
+````
+curl -O https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0221EN-Coursera/labs/v2/exchange_rate.csv
+````
+
 ![alt text](image.png)
 
 dot product
